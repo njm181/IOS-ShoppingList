@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1913399228E562CEE0FA52B4 /* Pods_NoMemory_NetworkModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED8C9EF8182A4A7C2562301 /* Pods_NoMemory_NetworkModule.framework */; };
+		9E382A4B2C4F4A6F0054CCA0 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E382A4A2C4F4A6F0054CCA0 /* Repository.swift */; };
 		9E3B78EE2C3774470006DDCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B78ED2C3774470006DDCD /* AppDelegate.swift */; };
 		9E3B78F02C3774470006DDCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B78EF2C3774470006DDCD /* SceneDelegate.swift */; };
 		9E3B78F22C3774470006DDCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3B78F12C3774470006DDCD /* ViewController.swift */; };
@@ -22,12 +23,15 @@
 		9E87D0002C3D886B00D7FC36 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E87CFFF2C3D886B00D7FC36 /* NetworkManagerProtocol.swift */; };
 		9E87D0022C3D8B7300D7FC36 /* URLSessionNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E87D0012C3D8B7300D7FC36 /* URLSessionNetworkManager.swift */; };
 		9E87D0042C3D9C6D00D7FC36 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E87D0032C3D9C6D00D7FC36 /* ApiResponse.swift */; };
-		9E87D0062C3D9F3900D7FC36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E87D0052C3D9F3900D7FC36 /* GoogleService-Info.plist */; };
+		9E89E8A12C508C1B003DD799 /* FirebaseRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E89E8A02C508C1B003DD799 /* FirebaseRepositoryImpl.swift */; };
+		9E89E8AA2C508E65003DD799 /* FirebaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E89E8A92C508E65003DD799 /* FirebaseConfig.swift */; };
+		9E89E8AC2C509994003DD799 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E89E8AB2C509994003DD799 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5ED8C9EF8182A4A7C2562301 /* Pods_NoMemory_NetworkModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoMemory_NetworkModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3C9038F4E495F821C15964 /* Pods-NoMemory-NetworkModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoMemory-NetworkModule.release.xcconfig"; path = "Target Support Files/Pods-NoMemory-NetworkModule/Pods-NoMemory-NetworkModule.release.xcconfig"; sourceTree = "<group>"; };
+		9E382A4A2C4F4A6F0054CCA0 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		9E3B78EA2C3774470006DDCD /* NoMemory-NetworkModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NoMemory-NetworkModule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3B78ED2C3774470006DDCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E3B78EF2C3774470006DDCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +48,9 @@
 		9E87CFFF2C3D886B00D7FC36 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
 		9E87D0012C3D8B7300D7FC36 /* URLSessionNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionNetworkManager.swift; sourceTree = "<group>"; };
 		9E87D0032C3D9C6D00D7FC36 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
-		9E87D0052C3D9F3900D7FC36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9E89E8A02C508C1B003DD799 /* FirebaseRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRepositoryImpl.swift; sourceTree = "<group>"; };
+		9E89E8A92C508E65003DD799 /* FirebaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConfig.swift; sourceTree = "<group>"; };
+		9E89E8AB2C509994003DD799 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BD85EEEDDDB348D3E7CB1BDB /* Pods-NoMemory-NetworkModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoMemory-NetworkModule.debug.xcconfig"; path = "Target Support Files/Pods-NoMemory-NetworkModule/Pods-NoMemory-NetworkModule.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +83,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		9E382A492C4F4A3B0054CCA0 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				9E382A4A2C4F4A6F0054CCA0 /* Repository.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
 		9E3B78E12C3774470006DDCD = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +112,8 @@
 		9E3B78EC2C3774470006DDCD /* NoMemory-NetworkModule */ = {
 			isa = PBXGroup;
 			children = (
+				9E382A492C4F4A3B0054CCA0 /* repository */,
+				9E89E8A32C508D65003DD799 /* repositoryImpl */,
 				9E3B79042C3776B40006DDCD /* api */,
 				9E3B79032C3776A30006DDCD /* network */,
 				9E3B79022C3776970006DDCD /* endpoint */,
@@ -107,8 +123,8 @@
 				9E3B78F32C3774470006DDCD /* Main.storyboard */,
 				9E3B78F62C3774480006DDCD /* Assets.xcassets */,
 				9E3B78F82C3774480006DDCD /* LaunchScreen.storyboard */,
+				9E89E8AB2C509994003DD799 /* GoogleService-Info.plist */,
 				9E3B78FB2C3774480006DDCD /* Info.plist */,
-				9E87D0052C3D9F3900D7FC36 /* GoogleService-Info.plist */,
 			);
 			path = "NoMemory-NetworkModule";
 			sourceTree = "<group>";
@@ -137,7 +153,8 @@
 		9E3B79042C3776B40006DDCD /* api */ = {
 			isa = PBXGroup;
 			children = (
-				9E87D0032C3D9C6D00D7FC36 /* ApiResponse.swift */,
+				9E89E8A52C508DB4003DD799 /* utils */,
+				9E89E8A92C508E65003DD799 /* FirebaseConfig.swift */,
 			);
 			path = api;
 			sourceTree = "<group>";
@@ -148,6 +165,38 @@
 				9E87CFF72C3D81AC00D7FC36 /* FirebaseEndpointImpl.swift */,
 			);
 			path = firebase;
+			sourceTree = "<group>";
+		};
+		9E89E8A32C508D65003DD799 /* repositoryImpl */ = {
+			isa = PBXGroup;
+			children = (
+				9E89E8A62C508DFE003DD799 /* remote */,
+			);
+			path = repositoryImpl;
+			sourceTree = "<group>";
+		};
+		9E89E8A42C508D72003DD799 /* firebase */ = {
+			isa = PBXGroup;
+			children = (
+				9E89E8A02C508C1B003DD799 /* FirebaseRepositoryImpl.swift */,
+			);
+			path = firebase;
+			sourceTree = "<group>";
+		};
+		9E89E8A52C508DB4003DD799 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				9E87D0032C3D9C6D00D7FC36 /* ApiResponse.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		9E89E8A62C508DFE003DD799 /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				9E89E8A42C508D72003DD799 /* firebase */,
+			);
+			path = remote;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E3B78FA2C3774480006DDCD /* LaunchScreen.storyboard in Resources */,
-				9E87D0062C3D9F3900D7FC36 /* GoogleService-Info.plist in Resources */,
+				9E89E8AC2C509994003DD799 /* GoogleService-Info.plist in Resources */,
 				9E3B78F72C3774480006DDCD /* Assets.xcassets in Resources */,
 				9E3B78F52C3774470006DDCD /* Main.storyboard in Resources */,
 			);
@@ -269,11 +318,14 @@
 				9E87D0042C3D9C6D00D7FC36 /* ApiResponse.swift in Sources */,
 				9E87CFFC2C3D866F00D7FC36 /* ApiError.swift in Sources */,
 				9E87D0002C3D886B00D7FC36 /* NetworkManagerProtocol.swift in Sources */,
+				9E89E8A12C508C1B003DD799 /* FirebaseRepositoryImpl.swift in Sources */,
 				9E87CFF42C3D7B9700D7FC36 /* HTTPMethod.swift in Sources */,
 				9E87D0022C3D8B7300D7FC36 /* URLSessionNetworkManager.swift in Sources */,
 				9E3B78F22C3774470006DDCD /* ViewController.swift in Sources */,
 				9E87CFF82C3D81AC00D7FC36 /* FirebaseEndpointImpl.swift in Sources */,
+				9E89E8AA2C508E65003DD799 /* FirebaseConfig.swift in Sources */,
 				9E3B78EE2C3774470006DDCD /* AppDelegate.swift in Sources */,
+				9E382A4B2C4F4A6F0054CCA0 /* Repository.swift in Sources */,
 				9E3B78F02C3774470006DDCD /* SceneDelegate.swift in Sources */,
 				9E87CFFE2C3D86E100D7FC36 /* HttpResponseStatus.swift in Sources */,
 				9E87CFF62C3D7C2300D7FC36 /* EndpointPotrocol.swift in Sources */,

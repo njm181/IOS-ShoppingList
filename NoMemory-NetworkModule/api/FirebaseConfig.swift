@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import FirebaseFirestore
+
+struct FirebaseConfig {
+    public let db = Firestore.firestore()
+}

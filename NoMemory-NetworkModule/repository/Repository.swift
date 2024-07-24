@@ -14,4 +14,6 @@ protocol Repository {
     func getShoppingList() async throws
     
     func deleteShoppingList() async throws
+    
+    func updateShoppingList() async throws
 }

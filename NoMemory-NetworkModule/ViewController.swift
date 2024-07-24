@@ -16,6 +16,11 @@ class ViewController: UIViewController {
         
         Analytics.logEvent("InitScreen", parameters: ["message":"Integration"])
         
+        let repoImpl = FirebaseRepositoryImpl()
+        Task {
+            try await repoImpl.updateShoppingList()
+        }
+        
     }
     
 
