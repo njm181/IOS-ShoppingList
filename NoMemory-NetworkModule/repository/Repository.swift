@@ -9,11 +9,11 @@ import Foundation
 
 protocol Repository {
     
-    func createShoppingList() async throws
+    func createShoppingList(items: [String: Any], shoppingListName: String) async throws
     
-    func getShoppingList() async throws
+    func getShoppingList(collectionID: String) async throws
     
-    func deleteShoppingList() async throws
+    func deleteShoppingList(collectionID: String, documentID: String) async throws
     
-    func updateShoppingList() async throws
+    func updateShoppingList(collectionID: String, items: [String: Any], documentID: String) async throws
 }

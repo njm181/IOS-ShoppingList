@@ -17,8 +17,15 @@ class ViewController: UIViewController {
         Analytics.logEvent("InitScreen", parameters: ["message":"Integration"])
         
         let repoImpl = FirebaseRepositoryImpl()
+
+        let miDiccionario = ["nombre": "Juan", "edad": 30, "ciudad": "Madrid"] as [String : Any]
+
+        
         Task {
-            try await repoImpl.updateShoppingList()
+            try await repoImpl.createShoppingList(
+                items: miDiccionario,
+                shoppingListName: "shopping-list"
+            )
         }
         
     }
